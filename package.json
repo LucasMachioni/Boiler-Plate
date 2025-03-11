@@ -9,10 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tamagui/babel-plugin": "^1.125.23",
+    "@tamagui/config": "^1.125.23",
+    "@tamagui/lucide-icons": "^1.125.23",
     "expo": "~52.0.37",
+    "expo-font": "~13.0.4",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.7"
+    "react-native": "0.76.7",
+    "tamagui": "^1.125.23"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
