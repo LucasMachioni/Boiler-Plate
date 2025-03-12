@@ -27566,7 +27566,8 @@
       "ox": "overflowX",
       "oy": "overflowY",
       "jc": "justifyContent",
-      "ai": "alignItems"
+      "ai": "alignItems",
+      "as": "alignSelf"
     },
     "themes": {
       "light": {
@@ -68807,7 +68808,7 @@
       "right": "r",
       "borderRadius": "rounded",
       "userSelect": "select",
-      "alignSelf": "self",
+      "alignSelf": "as",
       "flexShrink": "shrink",
       "top": "t",
       "zIndex": "z",

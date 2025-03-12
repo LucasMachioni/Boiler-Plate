@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { TamaguiProvider } from 'tamagui';
 import config from './tamagui.config';
-import { SignIn } from './src/screens/logged/SignIn';
+import { SignIn } from './src/screens/auth/SignIn';
 import { useFonts } from 'expo-font';
 import { useEffect } from 'react';
 import React from 'react';
 import tamaguiConfig from './tamagui.config';
+import { Routes } from './src/routes';
 
 export default function App() {
   const [loaded] = useFonts({
@@ -27,7 +28,7 @@ export default function App() {
     <TamaguiProvider config={tamaguiConfig}>
       <StatusBar style='dark' />
       <>
-      <SignIn />
+      <Routes />
       </>
     </TamaguiProvider>
   );
